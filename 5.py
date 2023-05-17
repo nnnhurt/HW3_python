@@ -1,7 +1,7 @@
 a = [int(b) for b in input().split()]
 c = 0
-for k in range(len(a)):
-    for j in range(k + 1, len(a)):
+for k in range(len(a)): # прохржу по длине 
+    for j in range(k + 1, len(a)): #и проверяю с каждым равны ли они друг другу
         if a[k] == a[j]:
             c += 1
 print(c)
