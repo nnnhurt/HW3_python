@@ -7,8 +7,8 @@ def symmetric(a, n):
 
 
 n = int(input())
-b = [list(map(int, input().split())) for i in range(n)]
-if symmetric(b,n):
+b = [list(map(int, input().split())) for i in range(n)] #ввод матрицы
+if symmetric(b,n): #если функция вернула истину то все ок
     print('YES')
 else:
     print('NO')
